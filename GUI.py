@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout,
 from PyQt5.QtCore import QAbstractTableModel, Qt
 from asammdf import MDF
 
+# Modello per la tabella
 class PandasModel(QAbstractTableModel):
     def __init__(self, df):
         super().__init__()
